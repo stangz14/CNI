@@ -1,6 +1,6 @@
 # Topology
 
-![Routing.png|300](Routing.png)
+![Routing.png|300](./img/Routing.png)
 # Config
 ## Static Route
 ```cisco

@@ -1,5 +1,5 @@
 # Topology
-![Vlan_topology|500](Vlan_topology.png)
+![Vlan_topology|500](./img/Vlan_topology.png)
 # Config
 ## Switch
 1. Create Vlan

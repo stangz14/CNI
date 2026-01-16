@@ -1,5 +1,5 @@
 # Topology
-![[Nat.png]]
+![[./img/Nat.png]]
 # Config
 ## Static Nat
 ```cisco
