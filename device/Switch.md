@@ -1,16 +1,21 @@
+# Basic
+## Add Defaul-gateway
+```cisco
+ip defaul-gateway {ip_address}
+```
 # Vlan
-## ตรวจสอบ Vlan
+## Check Vlan
 ```cisco
 # show vlan
 ```
-## สร้าง Vlan
+## Create Vlan
 ```cisco
 # conf t
 (config)# vlan [vlan_id]
 (config)# name [name] ! ตั้งชื่อ vlan
 (config)# exit
 ```
-## กำหนด ip ใน vlan
+## Add ip Vlan
 ```cisco
 # conf t
 (config)# int vlan [vlan_id]
@@ -18,8 +23,8 @@
 (config-if)# ip add [ip] [subnetmask]
 (config)# exit
 ```
-# กำหนด mode ในสาย
-## access สายละ 1 vlan
+# Select Mode Interface Switch
+## Access สายละ 1 vlan
 ```cisco
 # conf t
 (config)# int [interface_id]
@@ -27,7 +32,7 @@
 (config-if)# switchport access vlan [vlan_id]
 (config)# exit
 ```
-## trunk
+## Trunk 1 สายไปได้หลาย vlan
 ```cisco
 # conf t
 (config)# int [interface_id]
