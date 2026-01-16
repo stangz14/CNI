@@ -22,7 +22,7 @@ interface e0/0
 ```
 
 # Bonus
-![DHCP-2|400](DHCP-2.png)
+![DHCP-2|400](./img/DHCP-2.png)
 ## Router1
 ```cisco
 (config)# int g0/0/0
