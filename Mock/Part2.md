@@ -25,7 +25,7 @@ iface eth0 inet static
 	address 172.16.227.130
 	netmask 255.255.255.224
 	gateway 172.16.227.129
-	up echo nameserver 8.8.8.8 > /etc/resolv.conf
+	up echo nameserver 192.168.1.1 > /etc/resolv.conf
 
 # DHCP config for eth0
 #auto eth0
