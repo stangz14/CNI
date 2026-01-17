@@ -12,7 +12,7 @@
 ```cisco
 (config)# ip dns server
 (config)# ip domain-lookup
-(config)# ip dns primary itkmitl.lab soa ns1.itkmitl.lab
+(config)# ip dns primary itkmitl.lab soa ns1.itkmitl.lab admin.itkmitl.lab
 (config)# ip host SW.itkmitl.lab 172.16.227.158
 (config)# ip host web.itkmit.lab 10.70.38.253
 (config)# ip name-server 8.8.8.8
