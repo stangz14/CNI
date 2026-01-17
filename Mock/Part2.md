@@ -68,8 +68,8 @@ iface eth0 inet dhcp
 (config-if)# ex
 (config)# int vlan 181
 (config-if)# no shut
-(config-if)# ip add 172.16.181.254 255.255.255.192
 (config-if)# ex
+(config)# no ip routing
 (config)# do wr
 ```
 ## Select Mode interface
