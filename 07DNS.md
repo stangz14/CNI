@@ -6,3 +6,5 @@
 (config)# ip host [domainname EX: SW.itkmitl.lab] [ip]
 (config)# ip name-server 8.8.8.8
 ```
+
+![[./img/netplan.png]]

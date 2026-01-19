@@ -47,3 +47,12 @@
 > คำสั่งตรวจสอบ (Verification)
 > `show access-lists`: ดูรายการกฎที่เราสร้าง และดูว่ามี packet match กฎไหนบ้าง (hit count)
 > `show ip interface [interface_name]`: ดูว่า interface นั้นมี ACL เบอร์อะไรแปะอยู่หรือไม่
+
+```cisco
+! สร้าง Named Extended ACL
+ip access-list extended MAIN_ACL
+ deny udp host <IP_PC2> host <IP_PC3> eq tftp     ! ข้อ 1
+ deny tcp host <IP_PC2> host <IP_PC3> eq telnet   ! ข้อ 2
+ ! ...ไล่เขียนกฎต่อไปเรื่อยๆ...
+ permit ip any any                                ! บรรทัดสุดท้ายเสมอ
+```

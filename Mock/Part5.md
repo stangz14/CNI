@@ -23,12 +23,12 @@
 |VLAN C|6|CIDR S|172.16.0.0/24|
 
 # Table
-|Device.Interface|GUA|Prefix-Length|Link-Local Address|Gateway|
-|---|---|---|---|---|
-|router1.eth_0|2001:6707:รหัสนศสามตัวท้าย:เลข VLAN C::1||FE80::1|N/A|
-|router2.eth0_0_a|||FE80::1|N/A|
-|router2.eth0_0_b|||FE80::1|N/A|
-|router2.eth0_1|2001:6707:รหัสนศสามตัวท้าย:เลข VLAN C::2||FE80::2|N/A|
-|switch.sw_vlan_a|||FE80::3||
-|ubuntu1.eth0|||FE80::2||
-|ubuntu2.eth0|Valid range: Enter your SLAAC-assigned IPv6 address||N/A||
+| Device.Interface | GUA                  | Prefix-Length | Link-Local Address | Gateway |
+| ---------------- | -------------------- | ------------- | ------------------ | ------- |
+| router1.eth_0    | 2001:6707:182:6::1   | /64           | FE80::1            | N/A     |
+| router2.eth0_0_a | 2001:6707:182:227::1 | /64           | FE80::1            | N/A     |
+| router2.eth0_0_b | 2001:6707:182:181::1 | /64           | FE80::1            | N/A     |
+| router2.eth0_1   | 2001:6707:182:6::1   | /64           | FE80::2            | N/A     |
+| switch.sw_vlan_a | 2001:6707:182:227::3 | /64           | FE80::3            | FE80::1 |
+| ubuntu1.eth0     | 2001:6707:182:227::2 | /64           | FE80::2            | FE80::1 |
+| ubuntu2.eth0     | 2001:6707:182:227::2 | /64           | N/A                | FE80::1 |

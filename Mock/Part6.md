@@ -64,3 +64,4 @@
 ! Default Gateway IPv6
 (config)# ipv6 route ::/0 fe80::1
 ```
+
